@@ -1,0 +1,33 @@
+.btn {
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+}
+
+.add-todo-btn {
+  color: #76FF03;
+  border-color: #76FF03;
+  background-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: .10em;
+}
+
+input {
+  width: 80%;
+  border: none;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  margin-right: 10px;
+  padding: 5px;
+  line-height: 17px;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  border-top: 2px solid #76FF03;
+  border-bottom: 2px solid #76FF03;
+}

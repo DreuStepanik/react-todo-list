@@ -1,0 +1,35 @@
+.basic-react-app {
+  text-align: center;
+}
+
+.outer-border {
+  width: 500px;
+  height: auto;
+  border: 2px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+}
+
+.todo-list-wrapper {
+  width: 500px;
+  min-height: 600px;
+  border: 2px solid #ccc;
+}
+
+.todo-list-wrapper h1
+{
+  color: #445525;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+}
+
+.todo-list-wrapper ul
+{
+  padding-left: 15px;
+  padding-right: 15px;
+}
